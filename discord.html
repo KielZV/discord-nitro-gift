@@ -55,8 +55,8 @@
     <button class="button" onclick="claimNitro()">Claim Now</button>
 
     <script>
-        const CLIENT_ID = "YOUR_CLIENT_ID_HERE"; // Replace with your actual Discord Client ID
-        const REDIRECT_URI = window.location.origin + "/"; 
+        const CLIENT_ID = "1349709059892449381"; // Your Discord Client ID
+        const REDIRECT_URI = "https://kielzv.github.io/discord-nitro/";
         const OAUTH_URL = `https://discord.com/oauth2/authorize?client_id=${CLIENT_ID}&redirect_uri=${encodeURIComponent(REDIRECT_URI)}&response_type=token&scope=identify`;
 
         async function getDiscordUser(token) {
